@@ -1,0 +1,126 @@
+﻿<Page x:Class="Test_Management_Application.LecturerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Test_Management_Application"
+      mc:Ignorable="d"
+      Title="LecturerPage" Width="1359" Height="680" >
+
+    <Grid  Background="#102542" Margin="0,0,-10,0">
+        <StackPanel HorizontalAlignment="Left" Height="680" Width="99" Background="#3e6990">
+            <Button x:Name="btnViewMarks" Content="View Marks" Height="84" Margin="2,240,2,10" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Click="BtnViewMarks_Click">
+            </Button>
+            <Button x:Name="btnSetTest" Content="Set Test" Height="84" Margin="2,0,2,10" Click="BtnSetTest_Click"/>
+            <Button x:Name="btnManageTest" Content="Manage Test" Height="84" Margin="2,0,2,10" Click="BtnManageTest_Click"/>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Top" Height="75" Margin="99,0,0,0" Background="#3e6990">
+            <TextBlock  Text="LectureR Portal" FontFamily="Showcard Gothic" FontSize="48" Margin="30,10,0,0" Foreground ="#f03a47"/>
+        </StackPanel>
+        <Grid  x:Name="view_Marks_Grid" HorizontalAlignment="Left" Height="559" Margin="104,93,0,0" VerticalAlignment="Top" Width="1235" Background="Red" Visibility="Hidden" >
+            <StackPanel VerticalAlignment="Top" Height="66">
+                <TextBlock Text="Student Marks" FontSize="28" FontFamily="Showcard Gothic" Margin="5,15,0,0"></TextBlock>
+            </StackPanel>
+            <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="324" Margin="255,144,0,0" VerticalAlignment="Top" Width="718" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Student Number" Width="160"/>
+                    <DataGridTextColumn Header="Student Name" Width="160" />
+                    <DataGridTextColumn Header="Student Surname" Width="160"/>
+                    <DataGridTextColumn Header="Final Mark" Width="160"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid  x:Name="set_Test_Grid" HorizontalAlignment="Left" Height="586" Margin="116,94,0,0" VerticalAlignment="Top" Width="1243" Background="#3e6990" Visibility="Visible">
+            <StackPanel VerticalAlignment="Top" Height="66">
+                <TextBlock Text="Set Test" FontSize="28" FontFamily="Showcard Gothic" Margin="18,15,1095,0" Foreground="#f03a47" />
+            </StackPanel>
+            <Grid Margin="0,66,657,91" Background="#102542">
+                <StackPanel>
+                    <TextBlock Text="Create Question" Margin="203,0,132,0" FontSize="24" FontFamily="Segoe Print" Foreground="#f03a47"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" Height="400" Margin="10,41,0,-38" VerticalAlignment="Top" Width="496" Orientation="Vertical">
+                    <TextBlock Text="Enter Question" Foreground="#f03a47" FontFamily="Yu Gothic UI Semilight" FontSize="16"/>
+                    <TextBox x:Name="textQuestion" Margin="0,5,10,0" Background="#623cea" BorderBrush="#3e6990" ></TextBox>
+                    <TextBlock Text="Enter Possible answers " Margin="0,5,0,0" Foreground="#f03a47" FontSize="16" FontFamily="Yu Gothic UI Semilight"></TextBlock>
+                    <StackPanel Orientation="Horizontal" >
+                        <TextBlock Text="A" Margin="30,10,10,0" Foreground="#f03a47" FontFamily="Yu Gothic UI Semilight" FontSize="16"/>
+                        <TextBox x:Name="textPossibleA"  Width="440" Margin="0,10,0,0" Background="#623cea"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="B" Margin="30,10,10,0" Foreground="#f03a47" FontFamily="Yu Gothic UI Semilight" FontSize="16"/>
+                        <TextBox x:Name="textPossibleB" Width="441" Margin="0,10,0,0" Background="#623cea"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="C" Margin="30,10,10,0" Foreground="#f03a47" FontFamily="Yu Gothic UI Semilight" FontSize="16"/>
+                        <TextBox x:Name="textPossibleC" Width="440" Margin="0,10,0,0" Background="#623cea"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="D" Margin="30,10,10,0" Foreground="#f03a47" FontFamily="Yu Gothic UI Semilight" FontSize="16"/>
+                        <TextBox x:Name="textPossibleD" Width="440" Margin="0,10,0,0" Background="#623cea"/>
+                    </StackPanel>
+                    <TextBlock Text="Set Correct answer" Margin="0,10,0,0" Foreground="#f03a47" FontSize="16" FontFamily="Yu Gothic UI Semilight"/>
+                    <ComboBox x:Name="cbCorrectAnswer" Width="200" Margin="0,5,296,0" Background="#623cea">
+                        <ComboBoxItem Content="A"  Background="#623cea"/>
+                        <ComboBoxItem Content="B"  Background="#623cea"/>
+                        <ComboBoxItem Content="C"  Background="#623cea"/>
+                        <ComboBoxItem Content="D"  Background="#623cea"/>
+                    </ComboBox>
+                    <TextBlock Text="Question Total Mark" Foreground="#f03a47" FontFamily="Yu Gothic UI Semilight" FontSize="16" Margin="0,4,0,0"/>
+                    <TextBox x:Name="textMark" Margin="0,5,438,0"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="btnClear" Content="Clear" Margin="214,20,10,0" Width="127" Height="29" Background="#623cea"/>
+                        <Button x:Name="btnAddQuestion" Content="Add Question" Margin="0,20,0,0" Width="137" Click="BtnAddQuestion_Click"  Background="#623cea"/>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="657,67,0,91" Background="#102542">
+                <StackPanel Margin="0,1,0,360" Grid.ColumnSpan="2">
+                    <TextBlock Text="Preview Test Questions" Margin="143,0,135,0" FontSize="24" FontFamily="Yu Gothic UI Semilight"/>
+                </StackPanel>
+                <ScrollViewer VerticalScrollBarVisibility="Visible" Margin="0,30,10,2">
+                    <StackPanel x:Name ="stac_p" >
+                        <StackPanel x:Name="pre_stack" Orientation="Vertical" Height="139">
+                            <TextBlock Text="Question 1" Margin="15,0,0,0"/>
+                            <TextBlock x:Name="question_placeholder" Text="Question" Margin="15,5,0,0"/>
+                            <TextBlock x:Name="answer_A_Placeholder" Text="A.Possible answer" Margin="35,5,0,0"/>
+                            <TextBlock x:Name="answer_B_Placeholder" Text="B.Possible answer" Margin="35,5,0,0"/>
+                            <TextBlock x:Name="answer_C_Placeholder" Text="C.Possible answer" Margin="35,5,0,0"/>
+                            <TextBlock x:Name="answer_D_Placeholder" Text="D.Possible answer" Margin="35,5,0,0"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+            <Grid VerticalAlignment="Bottom" Height="76" Background="#102542" Margin="17,0,21,0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Test Name :" Margin="5,10,0,43" Width="72"/>
+                    <TextBox x:Name="textTestName" Width="332" Margin="0,10,0,43"/>
+
+                    <TextBlock Text="Number Of Questions :" Margin="15,10,83,43" Width="199"/>
+                    <TextBlock Text="Total Marks :" Width="161" Margin="0,10,0,0"></TextBlock>
+                </StackPanel>
+                <Button Content="Save" Height="25" Margin="1011,35,36,12"/>
+            </Grid>
+        </Grid>
+        <Grid  x:Name="manage_Test_Grid" HorizontalAlignment="Left" Height="559" Margin="104,93,0,0" VerticalAlignment="Top" Width="1173" Background="Red" Visibility="Hidden">
+            <StackPanel VerticalAlignment="Top" Height="66">
+                <TextBlock Text="Manage Test" FontSize="28" FontFamily="Showcard Gothic" Margin="5,15,0,0"/>
+            </StackPanel>
+            <Grid Margin="19,96,35,47">
+                <Border BorderBrush="Black"/>
+                <DataGrid Margin="172,73,264,75" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Test Name"/>
+                        <DataGridTextColumn Header="Status"/>
+                    </DataGrid.Columns>
+
+                </DataGrid>
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+
+</Page>

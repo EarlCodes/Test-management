@@ -1,0 +1,46 @@
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\bin\Debug\Test Management Application.exe.config
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\bin\Debug\Test Management Application.exe
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\bin\Debug\Test Management Application.pdb
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\App.g.cs
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application_MarkupCompile.cache
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application_MarkupCompile.lref
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application.g.resources
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test_Management_Application.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application.exe
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\Test Management Application.pdb
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\LecturerPage.g.cs
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\StudentPage.g.cs
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\LecturerPage.baml
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\StudentPage.baml
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\StartUpPage.g.cs
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\StartUpPage.baml
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\StartUpWindow.g.cs
+C:\Users\Lenovo\source\repos\Test Management Application\Test Management Application\obj\Debug\StartUpWindow.baml
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\bin\Debug\Test Management Application.exe.config
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\bin\Debug\Test Management Application.exe
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\bin\Debug\Test Management Application.pdb
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application.csprojAssemblyReference.cache
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\LecturerPage.g.cs
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\MainWindow.g.cs
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\StartUpPage.g.cs
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\StartUpWindow.g.cs
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\StudentPage.g.cs
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\App.g.cs
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application_MarkupCompile.cache
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application_MarkupCompile.lref
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\LecturerPage.baml
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\MainWindow.baml
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\StartUpPage.baml
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\StartUpWindow.baml
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\StudentPage.baml
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application.g.resources
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test_Management_Application.Properties.Resources.resources
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application.csproj.GenerateResource.cache
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application.csproj.CoreCompileInputs.cache
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application.exe
+C:\Users\17230431\Desktop\Test Management Application\Test Management Application\obj\Debug\Test Management Application.pdb
